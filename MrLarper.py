@@ -189,7 +189,7 @@ class OpsexDemonV2:
                 f"INJECTING PACKETS... [{int(new_pct)}%]",
                 f"ROTATING PROXIES... [{int(new_pct)}%]",
                 f"EVADING DETECTION... [{int(new_pct)}%]",
-                f"OVERLOADING TARGET... [{int(new_pct)}%]",
+                f"RAPINGG TARGET... [{int(new_pct)}%]",
             ]
             self._log(random.choice(msgs))
         self._anim_job = self.root.after(30, lambda: self._animate_progress(new_pct))
